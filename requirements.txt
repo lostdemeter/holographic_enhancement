@@ -1,0 +1,14 @@
+# Holographic Enhancement - Python Dependencies
+# ==============================================
+
+# Core dependencies
+numpy>=1.20.0
+scipy>=1.7.0
+opencv-python>=4.5.0
+
+# Optional: for progress bars
+tqdm>=4.60.0
+
+# Optional: for Jupyter notebooks
+matplotlib>=3.4.0
+jupyter>=1.0.0
