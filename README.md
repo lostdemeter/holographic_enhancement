@@ -50,7 +50,7 @@ make
 
 In holography, recorded intensity arises from wave interference:
 
-$$I = |R + O|^2 = |R|^2 + |O|^2 + R^{*}O + RO^{*}$$
+$$I = |R + O|^2 = |R|^2 + |O|^2 + R^\ast O + RO^\ast$$
 
 We observe that natural images have similar structure: a low-frequency **structure** component modulated by high-frequency **detail**. This insight leads to our enhancement model.
 
