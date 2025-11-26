@@ -7,7 +7,7 @@
 **A physics-based image and video enhancement algorithm inspired by holographic interference principles.**
 
 <p align="center">
-  <img src="figures/comparison.png" alt="Before/After Comparison" width="800"/>
+  <img src="figures/pipeline.png" alt="Enhancement Pipeline" width="800"/>
 </p>
 
 ## Overview
@@ -50,7 +50,7 @@ make
 
 In holography, recorded intensity arises from wave interference:
 
-$$I = |R + O|^2 = |R|^2 + |O|^2 + R^*O + RO^*$$
+$$I = |R + O|^2 = |R|^2 + |O|^2 + R^{*}O + RO^{*}$$
 
 We observe that natural images have similar structure: a low-frequency **structure** component modulated by high-frequency **detail**. This insight leads to our enhancement model.
 
@@ -218,3 +218,4 @@ This work draws inspiration from:
 - Gabor's holographic principles (1948)
 - CIE LAB color space research
 - GPU computing advances in image processing
+
